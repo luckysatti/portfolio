@@ -542,12 +542,12 @@ st.markdown("""
   <div class="content-card">
     <h3 class="card-title">B.Tech in Artificial Intelligence & Machine Learning</h3>
     <p class="card-subtitle">Mohan Babu University, Tirupati (2022–2026)</p>
-    <p class="card-description">CGPA: 9.45 / 10</p>
+    <p class="card-subtitle">CGPA: 9.45 / 10</p>
   </div>
   <div class="content-card">
     <h3 class="card-title">Intermediate (MPC)</h3>
-    <p class="card-description">Sri Chaitanya Junior College, Eluru (2020–2022)</p>
-    <p class="card-description">Marks: 916 / 1000</p>
+    <p class="card-subtitle">Sri Chaitanya Junior College, Eluru (2020–2022)</p>
+    <p class="card-subtitle">Marks: 916 / 1000</p>
   </div>
 </section>
 """, unsafe_allow_html=True)
@@ -562,7 +562,7 @@ st.markdown("""
     <ul class="card-description">
       <li>Developed Banking System Simulator using Java (OOP + DSA), JDBC, and Spring Boot.</li>
       <li>Integrated SQLite3 and implemented complete account management features.</li>
-      <li><a href="https://drive.google.com/file/d/1QM-kSE_ufTKhHvIS2QcFOltwEZ7BC_Cc/view" class="cert-link" target="_blank">View Certificate →</a></li>
+      <a  href="https://drive.google.com/file/d/1QM-kSE_ufTKhHvIS2QcFOltwEZ7BC_Cc/view" class="cert-link" target="_blank">View Certificate →</a>
     </ul>
   </div>
 
@@ -572,7 +572,7 @@ st.markdown("""
     <ul class="card-description">
       <li>Gained hands-on experience with AI & ML model training and evaluation.</li>
       <li>Worked on preprocessing, data analysis, and model deployment strategies.</li>
-      <li><a href="https://drive.google.com/file/d/1RsvlfH8mgGtt3jA5hAx_EXX49YcaxABG/view" class="cert-link" target="_blank">View Certificate →</a></li>
+      <a href="https://drive.google.com/file/d/1RsvlfH8mgGtt3jA5hAx_EXX49YcaxABG/view" class="cert-link" target="_blank">View Certificate →</a>
     </ul>
   </div>
 </section>
@@ -604,23 +604,51 @@ st.markdown("""
 </section>
 """, unsafe_allow_html=True)
 
+# # ---------- SKILLS ----------
+# st.markdown("""
+# <section id="skills" class="section">
+#   <h2 class="section-heading">Technical Skills</h2>
+#   <div class="skill-tags">
+#     <span class="skill-tag">Python</span>
+#     <span class="skill-tag">Java</span>
+#     <span class="skill-tag">SQL</span>
+#     <span class="skill-tag">HTML/CSS/JS</span>
+#     <span class="skill-tag">Spring Boot</span>
+#     <span class="skill-tag">Qt Designer</span>
+#     <span class="skill-tag">JDBC</span>
+#     <span class="skill-tag">SQLite3</span>
+#     <span class="skill-tag">ServiceNow (CSA, CAD)</span>
+#   </div>
+# </section>
+# """, unsafe_allow_html=True)
+
 # ---------- SKILLS ----------
 st.markdown("""
 <section id="skills" class="section">
-  <h2 class="section-heading">Technical Skills</h2>
-  <div class="skill-tags">
-    <span class="skill-tag">Python</span>
-    <span class="skill-tag">Java</span>
-    <span class="skill-tag">SQL</span>
-    <span class="skill-tag">HTML/CSS/JS</span>
-    <span class="skill-tag">Spring Boot</span>
-    <span class="skill-tag">Qt Designer</span>
-    <span class="skill-tag">JDBC</span>
-    <span class="skill-tag">SQLite3</span>
-    <span class="skill-tag">ServiceNow (CSA, CAD)</span>
+  <h2 class="section-heading">Skills</h2>
+  <div class="content-card skills-container" style="text-align:left;">
+    <h3 style="color:#38bdf8;">Technical Skills</h3>
+    <ul style="list-style-type:none; padding-left:0;">
+      <li><strong>Programming Languages:</strong> Python, Java, SQL, DBMS, DSA</li>
+      <li><strong>Frameworks:</strong> Spring, Spring Boot, Qt Designer, JDBC</li>
+      <li><strong>Web Technologies:</strong> HTML, HTML5, CSS, CSS3, JavaScript</li>
+      <li><strong>Databases:</strong> MySQL, SQLite3</li>
+      <li><strong>Tools & Technologies:</strong> VS Code, Google Colab, Jupyter Notebook, Replit</li>
+      <li><strong>ServiceNow:</strong> CSA, CAD, Incident, Problem, Change Management, Service Catalog, 
+      User & Role Management, Access Control, Business Rules, UI Policies, Client Scripts</li>
+    </ul>
+
+    <h3 style="color:#38bdf8; margin-top:1.5rem;">Soft Skills</h3>
+    <ul style="list-style-type:none; padding-left:0;">
+      <li>• Adaptability and Flexibility</li>
+      <li>• Strong Team Collaboration</li>
+      <li>• Communication and Logical Thinking</li>
+      <li>• Problem-solving mindset and Quick Learner</li>
+    </ul>
   </div>
 </section>
 """, unsafe_allow_html=True)
+
 
 # ---------- CERTIFICATIONS ----------
 st.markdown("""
@@ -671,4 +699,5 @@ st.markdown("""
   © 2025 Sathi Lakshmi Narayana Reddy | Built with ❤️ using Streamlit
 </div>
 """, unsafe_allow_html=True)
+
 
