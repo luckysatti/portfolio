@@ -629,21 +629,31 @@ st.markdown("""
   <div class="content-card skills-container" style="text-align:left;">
     <h3 style="color:#38bdf8;">Technical Skills</h3>
     <ul style="list-style-type:none; padding-left:0;">
-      <li><strong>Programming Languages:</strong> Python, Java, SQL, DBMS, DSA</li>
-      <li><strong>Frameworks:</strong> Spring, Spring Boot, Qt Designer, JDBC</li>
-      <li><strong>Web Technologies:</strong> HTML, HTML5, CSS, CSS3, JavaScript</li>
-      <li><strong>Databases:</strong> MySQL, SQLite3</li>
-      <li><strong>Tools & Technologies:</strong> VS Code, Google Colab, Jupyter Notebook, Replit</li>
-      <li><strong>ServiceNow:</strong> CSA, CAD, Incident, Problem, Change Management, Service Catalog, 
-      User & Role Management, Access Control, Business Rules, UI Policies, Client Scripts</li>
+        <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">HTML/CSS/JS</span>
+            <span class="skill-tag">Spring Boot</span>
+            <span class="skill-tag">Qt Designer</span>
+            <span class="skill-tag">JDBC</span>
+            <span class="skill-tag">SQLite3</span>
+            <span class="skill-tag">ServiceNow (CSA, CAD)</span>
+      </div>
     </ul>
-
     <h3 style="color:#38bdf8; margin-top:1.5rem;">Soft Skills</h3>
     <ul style="list-style-type:none; padding-left:0;">
-      <li>• Adaptability and Flexibility</li>
-      <li>• Strong Team Collaboration</li>
-      <li>• Communication and Logical Thinking</li>
-      <li>• Problem-solving mindset and Quick Learner</li>
+    <div class="skill-tags">
+            <span class="skill-tag">Adaptability and Flexibility</span>
+            <span class="skill-tag">Communication and Logical Thinking</span>
+            <span class="skill-tag">Problem-solving mindset and Quick Learner</span>
+            <span class="skill-tag">HTML/CSS/JS</span>
+            <span class="skill-tag">Spring Boot</span>
+            <span class="skill-tag">Qt Designer</span>
+            <span class="skill-tag">JDBC</span>
+            <span class="skill-tag">SQLite3</span>
+            <span class="skill-tag">ServiceNow (CSA, CAD)</span>
+      </div>
     </ul>
   </div>
 </section>
@@ -699,5 +709,6 @@ st.markdown("""
   © 2025 Sathi Lakshmi Narayana Reddy | Built with ❤️ using Streamlit
 </div>
 """, unsafe_allow_html=True)
+
 
 
