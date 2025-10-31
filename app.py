@@ -636,12 +636,45 @@ st.markdown("""
             <span class="skill-tag"> SQL</span>
             <span class="skill-tag"> DBMS</span>
             <span class="skill-tag"> DSA</span>
-            <span class="skill-tag"> <strong>Frame works : </strong> Spring, spring Boot, Qt Designer, JDBC</span>
-            <span class="skill-tag"> <strong>Web Technologies : </strong> HTML, HTML5, CSS, CSS3, JavaScript</span>
-            <span class="skill-tag"> <strong>Databases : </strong> MySQL, SQLite3 </span>
-            <span class="skill-tag"> <strong>Tools and Technologies : </strong>  VS Code, Google Colab, Jupyter Notebook, Replit </span>
-            <span class="skill-tag"> <strong>Service Now : </strong>   CSA,CAD, Incident, Problem, Change Management, Service Catalog, User and Role Management,
-                                                                        Access Control, Business Rules, UI Policies, Client Scripts</span>
+        </div>
+        <h3 align="center"><strong>Frame works </strong> </h3>
+        <div class="skill-tags">
+            <span class="skill-tag"> Spring</span>
+            <span class="skill-tag"> Spring Boot</span>
+            <span class="skill-tag"> Qt Designer</span>
+            <span class="skill-tag"> JDBC</span>
+        </div>
+        <h3 align="center"> <strong>Web Technologies</strong></strong> </h3>
+        <div class="skill-tags">
+            <span class="skill-tag"> HTML5</span>
+            <span class="skill-tag"> CSS</span>
+            <span class="skill-tag"> CSS3JavaScrip</span>
+            <span class="skill-tag"> JavaScript</span>
+        </div>
+        <h3 align="center"><strong>Databases</strong> </h3>
+        <div class="skill-tags">
+            <span class="skill-tag"> MySQL</span>
+            <span class="skill-tag"> SQLite3</span>
+            <span class="skill-tag"> SQL</span>
+            <span class="skill-tag"> DBMS</span>
+            <span class="skill-tag"> DSA</span>
+        </div>
+        <h3 align="center"><strong>Tools and Technologies</strong> </h3>
+        <div class="skill-tags">
+            <span class="skill-tag"> VS Code</span>
+            <span class="skill-tag"> Google Colab</span>
+            <span class="skill-tag"> Jupyter Notebook</span>
+            <span class="skill-tag"> Replit</span>
+        </div>
+        <h3 align="center"><strong>Service Now </strong> </h3>
+        <div class="skill-tags">
+            <span class="skill-tag"> CSA</span>
+            <span class="skill-tag"> CAD</span>
+            <span class="skill-tag"> Incident|Problem|Change Management</span>
+            <span class="skill-tag"> Service Catalog</span>
+            <span class="skill-tag"> User and Role Management|Access Control</span>
+            <span class="skill-tag"> Business Rules, UI Policies, Client Scripts</span>
+        </div>
       </div>
     </ul>
     <h3 style="color:#38bdf8; margin-top:1.5rem;">Soft Skills</h3>
@@ -706,6 +739,7 @@ st.markdown("""
   © 2025 Sathi Lakshmi Narayana Reddy | Built with ❤️ using Streamlit
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
