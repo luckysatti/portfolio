@@ -1,18 +1,25 @@
 import streamlit as st
 
+# ---------- PAGE CONFIG ----------
 st.set_page_config(
     page_title="Sathi Lakshmi Narayana Reddy | Portfolio",
     page_icon="💻",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="collapsed"
 )
 
-# ======================== CSS Styling ========================
+# ---------- CSS STYLING ----------
 st.markdown("""
 <style>
-* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+html, body, [data-testid="stAppViewContainer"], [data-testid="stVerticalBlock"], [data-testid="stHorizontalBlock"] {
+  background: linear-gradient(135deg, #0f172a, #1e293b) !important;
+  color: #e2e8f0 !important;
+  font-family: 'Poppins', sans-serif !important;
+}
 
-body {background: linear-gradient(135deg, #0f172a, #1e293b); color: #e2e8f0;}
-a {text-decoration: none;}
+[data-testid="stHeader"] {background: rgba(15, 23, 42, 0.95) !important;}
+a {text-decoration: none !important; color: #38bdf8 !important;}
+a:hover {text-decoration: underline !important;}
 
 .nav-bar {
   position: fixed; top: 0; left: 0; right: 0;
@@ -85,7 +92,6 @@ a {text-decoration: none;}
   display: flex; justify-content: space-between; align-items: center;
 }
 .cert-name {color: #e2e8f0;}
-.cert-year {color: #38bdf8;}
 .cert-link {color: #38bdf8; font-size: 0.9rem;}
 .cert-link:hover {text-decoration: underline;}
 
@@ -110,7 +116,7 @@ a {text-decoration: none;}
 </style>
 """, unsafe_allow_html=True)
 
-# ======================== NAVBAR ========================
+# ---------- NAV BAR ----------
 st.markdown("""
 <div class="nav-bar">
   <div class="nav-logo">Sathi Lakshmi Narayana Reddy</div>
@@ -127,7 +133,7 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# ======================== HERO SECTION ========================
+# ---------- HERO SECTION ----------
 st.markdown("""
 <section class="hero-section" id="home">
   <div class="hero-content">
@@ -144,7 +150,7 @@ st.markdown("""
 </section>
 """, unsafe_allow_html=True)
 
-# ======================== ABOUT ========================
+# ---------- ABOUT ----------
 st.markdown("""
 <section id="about" class="section">
   <h2 class="section-heading">About Me</h2>
@@ -157,7 +163,7 @@ st.markdown("""
 </section>
 """, unsafe_allow_html=True)
 
-# ======================== EDUCATION ========================
+# ---------- EDUCATION ----------
 st.markdown("""
 <section id="education" class="section">
   <h2 class="section-heading">Education</h2>
@@ -169,10 +175,11 @@ st.markdown("""
 </section>
 """, unsafe_allow_html=True)
 
-# ======================== EXPERIENCE ========================
+# ---------- EXPERIENCE ----------
 st.markdown("""
 <section id="experience" class="section">
   <h2 class="section-heading">Professional Experience</h2>
+
   <div class="content-card">
     <h3 class="card-title">Java Full Stack Developer Intern – NETWORX</h3>
     <p class="card-subtitle">June 2025 – August 2025</p>
@@ -195,7 +202,7 @@ st.markdown("""
 </section>
 """, unsafe_allow_html=True)
 
-# ======================== PROJECTS ========================
+# ---------- PROJECTS ----------
 st.markdown("""
 <section id="projects" class="section">
   <h2 class="section-heading">Projects</h2>
@@ -224,7 +231,7 @@ st.markdown("""
 </section>
 """, unsafe_allow_html=True)
 
-# ======================== SKILLS ========================
+# ---------- SKILLS ----------
 st.markdown("""
 <section id="skills" class="section">
   <h2 class="section-heading">Technical Skills</h2>
@@ -242,7 +249,7 @@ st.markdown("""
 </section>
 """, unsafe_allow_html=True)
 
-# ======================== CERTIFICATIONS ========================
+# ---------- CERTIFICATIONS ----------
 st.markdown("""
 <section id="certifications" class="section">
   <h2 class="section-heading">Certifications</h2>
@@ -258,7 +265,7 @@ st.markdown("""
   </div>
 
   <div class="cert-item">
-    <div class="cert-name">Programming, Data Structures and Algorithms using Python (NPTEL)</div>
+    <div class="cert-name">Programming, Data Structures & Algorithms using Python (NPTEL)</div>
     <a href="https://archive.nptel.ac.in/content/noc/NOC24/SEM1/Ecertificates/106/noc24-cs45/Course/NPTEL24CS45S54250031730104507.pdf" target="_blank" class="cert-link">View →</a>
   </div>
 
@@ -270,7 +277,7 @@ st.markdown("""
 </section>
 """, unsafe_allow_html=True)
 
-# ======================== ACHIEVEMENTS ========================
+# ---------- ACHIEVEMENTS ----------
 st.markdown("""
 <section id="achievements" class="section">
   <h2 class="section-heading">Achievements</h2>
@@ -280,7 +287,7 @@ st.markdown("""
 </section>
 """, unsafe_allow_html=True)
 
-# ======================== CONTACT ========================
+# ---------- CONTACT ----------
 st.markdown("""
 <section id="contact" class="section">
   <h2 class="section-heading">Contact Me</h2>
@@ -297,7 +304,7 @@ st.markdown("""
 </section>
 """, unsafe_allow_html=True)
 
-# ======================== FOOTER ========================
+# ---------- FOOTER ----------
 st.markdown("""
 <div class="footer">
   © 2025 Sathi Lakshmi Narayana Reddy | Built with ❤️ using Streamlit
