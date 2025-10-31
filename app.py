@@ -517,7 +517,7 @@ st.markdown("""
     </p>
   </div>
   <div class="hero-image-container">
-    <img src="https://raw.githubusercontent.com/luckysatti/photo/main/IMG_20250909_193640.png" class="hero-image">
+    <img src="https://raw.githubusercontent.com/luckysatti/photo/main/passport_photo.png" class="hero-image">
   </div>
 </section>
 """, unsafe_allow_html=True)
@@ -604,24 +604,6 @@ st.markdown("""
 </section>
 """, unsafe_allow_html=True)
 
-# # ---------- SKILLS ----------
-# st.markdown("""
-# <section id="skills" class="section">
-#   <h2 class="section-heading">Technical Skills</h2>
-#   <div class="skill-tags">
-#     <span class="skill-tag">Python</span>
-#     <span class="skill-tag">Java</span>
-#     <span class="skill-tag">SQL</span>
-#     <span class="skill-tag">HTML/CSS/JS</span>
-#     <span class="skill-tag">Spring Boot</span>
-#     <span class="skill-tag">Qt Designer</span>
-#     <span class="skill-tag">JDBC</span>
-#     <span class="skill-tag">SQLite3</span>
-#     <span class="skill-tag">ServiceNow (CSA, CAD)</span>
-#   </div>
-# </section>
-# """, unsafe_allow_html=True)
-
 # ---------- SKILLS ----------
 st.markdown("""
 <section id="skills" class="section">
@@ -670,9 +652,9 @@ st.markdown("""
         <div class="skill-tags">
             <span class="skill-tag"> CSA</span>
             <span class="skill-tag"> CAD</span>
-            <span class="skill-tag"> Incident|Problem|Change Management</span>
+            <span class="skill-tag"> Incident | Problem | Change Management</span>
             <span class="skill-tag"> Service Catalog</span>
-            <span class="skill-tag"> User and Role Management|Access Control</span>
+            <span class="skill-tag"> User and Role Management | Access Control</span>
             <span class="skill-tag"> Business Rules, UI Policies, Client Scripts</span>
         </div>
     </ul>
@@ -740,6 +722,7 @@ st.markdown("""
   © 2025 Sathi Lakshmi Narayana Reddy | Built with ❤️ using Streamlit
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
