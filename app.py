@@ -13,7 +13,7 @@ st.set_page_config(
 # Custom CSS for stunning design with navigation
 st.markdown("""
 <style>
-    /* Import Google Fonts */
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap');
 
 /* Global Styles */
@@ -864,7 +864,6 @@ function scrollToSection(sectionId) {
         window.scrollTo({top: y, behavior: 'smooth'});
     }
 }
-
 </script>
 
 """, unsafe_allow_html=True)
@@ -934,7 +933,7 @@ st.markdown("""
 <div id="about" class="main-content">
   <section class="hero-section">
     <div class="hero-image-container">
-      <img src="https://github.com/luckysatti/photo/blob/main/IMG_20250909_193640.png" class="zoom-image"alt="Shaik Shariya" class="hero-image">
+      <img src="https://github.com/luckysatti/photo/blob/main/IMG_20250909_193640.png" class="zoom-image"alt="Sathi Lakshmi Narayana Reddy" class="hero-image">
     </div>
     <div class="hero-content">
       <h1 class="hero-title">Sathi Lakshmi Narayana Reddy</h1>
@@ -1236,6 +1235,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 
 
 st.markdown('</div>', unsafe_allow_html=True)
+
 
 
 
