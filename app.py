@@ -21,19 +21,40 @@ html, body, [data-testid="stAppViewContainer"], [data-testid="stVerticalBlock"],
 a {text-decoration: none !important; color: #38bdf8 !important;}
 a:hover {text-decoration: underline !important;}
 
+# .nav-bar {
+#   position: fixed; top: 0; left: 0; right: 0;
+#   background: rgba(15, 23, 42, 0.95);
+#   backdrop-filter: blur(10px);
+#   padding: 0.8rem 2rem;
+#   display: flex; justify-content: space-between; align-items: center;
+#   box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+#   z-index: 999;
+# }
+# .nav-logo {font-size: 1.3rem; font-weight: 700; color: #38bdf8;}
+# .nav-links {display: flex; gap: 1.2rem;}
+# .nav-link {color: #f8fafc; font-weight: 500;}
+# .nav-link:hover {color: #38bdf8;}
+
 .nav-bar {
-  position: fixed; top: 0; left: 0; right: 0;
-  background: rgba(15, 23, 42, 0.95);
-  backdrop-filter: blur(10px);
-  padding: 0.8rem 2rem;
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  background: rgba(10, 14, 39, 0.95);
+  padding: 1rem 2rem;
   display: flex; justify-content: space-between; align-items: center;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.4);
-  z-index: 999;
+  z-index: 9999;
+  border-bottom: 1px solid rgba(0,212,255,0.25);
 }
-.nav-logo {font-size: 1.3rem; font-weight: 700; color: #38bdf8;}
-.nav-links {display: flex; gap: 1.2rem;}
-.nav-link {color: #f8fafc; font-weight: 500;}
-.nav-link:hover {color: #38bdf8;}
+.nav-logo {
+  font-size: 1.3rem; font-weight: 700;
+  background: linear-gradient(135deg,#00d4ff,#00ff9d);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+.nav-links {display: flex; gap: 1rem;}
+.nav-link {
+  color: #f8fafc; font-weight: 500; padding: 0.4rem 0.8rem;
+  border-radius: 8px; transition: 0.3s;
+}
+.nav-link:hover {background: rgba(0,212,255,0.2); color: #00d4ff;}
 
 .hero-section {
   padding: 8rem 3rem 4rem;
@@ -359,3 +380,4 @@ st.markdown("""
   © 2025 Sathi Lakshmi Narayana Reddy | Built with ❤️ using Streamlit
 </div>
 """, unsafe_allow_html=True)
+
