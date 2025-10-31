@@ -517,7 +517,7 @@ st.markdown("""
     </p>
   </div>
   <div class="hero-image-container">
-    <img src="https://raw.githubusercontent.com/luckysatti/photo/main/passport_photo.png" class="hero-image">
+    <img src="https://raw.githubusercontent.com/luckysatti/photo/main/IMG_20250909_193640.png" class="hero-image">
   </div>
 </section>
 """, unsafe_allow_html=True)
@@ -722,6 +722,7 @@ st.markdown("""
   © 2025 Sathi Lakshmi Narayana Reddy | Built with ❤️ using Streamlit
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
