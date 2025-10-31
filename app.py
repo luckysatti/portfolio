@@ -23,7 +23,7 @@ st.markdown("""
     padding: 0;
     box-sizing: border-box;
 }
-
+.block-container { padding-top: 120px !important; }
 /* Hide Streamlit Branding */
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
@@ -1232,6 +1232,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 
 
 st.markdown('</div>', unsafe_allow_html=True)
+
 
 
 
