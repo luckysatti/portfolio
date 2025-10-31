@@ -755,30 +755,7 @@ with col1:
         </div>
         <a href="https://github.com/luckysatti/Banking-System" target="_blank" style="color: #00d4ff; text-decoration: none; font-weight: 600; margin-top: 15px; display: inline-block;">View on GitHub →</a>
     </div>
-    
-    # <div class="content-card">
-    #     <h3 class="card-title">Educational Organization - ServiceNow</h3>
-    #     <p class="card-description">
-    #         Comprehensive educational system built on ServiceNow platform with complete administrative features.
-    #     </p>
-    #     <p style="color: #e0e0e0; font-weight: 600; margin: 20px 0 10px 0;">Key Features:</p>
-    #     <ul>
-    #         <li>Business rules and client scripts implementation</li>
-    #         <li>Flow designers for custom tables</li>
-    #         <li>Complete admission, grades, and fee management system</li>
-    #     </ul>
-    #     <div style="margin-top: 20px;">
-    #         <span class="skill-tag">ServiceNow</span>
-    #         <span class="skill-tag">Flow Designer</span>
-    #         <span class="skill-tag">Business Rules</span>
-    #     </div>
-    #     <a href="" target="_blank" style="color: #00d4ff; text-decoration: none; font-weight: 600; margin-top: 15px; display: inline-block;">In Progress</a>
-    # </div>
-    """, unsafe_allow_html=True)
-
-with col2:
-    st.markdown("""
-    <div class="content-card">
+     <div class="content-card">
         <h3 class="card-title">Electricity Bill Management System</h3>
         <p class="card-description">
             ServiceNow-based system for managing electricity bill operations with AI-powered virtual agent.
@@ -796,7 +773,10 @@ with col2:
         </div>
         <a href="https://www.linkedin.com/posts/sathi-lakshmi-narayana-reddy-b05ab6284_servicenow-learningbydoing-servicenowdeveloper-activity-7370362503954022400--CMW?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEU34bUBnfFrkkibKaBaNCjQKmkWr3IGqRk" target="_blank" style="color: #00d4ff; text-decoration: none; font-weight: 600; margin-top: 15px; display: inline-block;">View on LinkedIn →</a>
     </div>
-    
+    """, unsafe_allow_html=True)
+
+with col2:
+    st.markdown("""    
     <div class="content-card">
         <h3 class="card-title">Fantasy Cricket Application</h3>
         <p class="card-description">
@@ -919,6 +899,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 
 
 st.markdown('</div>', unsafe_allow_html=True)
+
 
 
 
