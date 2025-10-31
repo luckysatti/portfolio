@@ -622,148 +622,72 @@ st.markdown("""
 # </section>
 # """, unsafe_allow_html=True)
 
-# # ---------- SKILLS ----------
-# st.markdown("""
-# <section id="skills" class="section">
-#   <h2 class="section-heading">Skills</h2>
-#   <div class="content-card skills-container" style="text-align:left;">
-#     <h3 style="color:#38bdf8;">Technical Skills</h3>
-#     <ul style="list-style-type:none; padding-left:0;">
-#     <h5 align="center"><strong>Programming Languages</strong> </h5>
-#         <div class="skill-tags">
-#             <span class="skill-tag"> Java</span>
-#             <span class="skill-tag"> Python</span>
-#             <span class="skill-tag"> SQL</span>
-#             <span class="skill-tag"> DBMS</span>
-#             <span class="skill-tag"> DSA</span>
-#         </div>
-#         <h5 align="center"><strong>Frame works </strong> </h5>
-#         <div class="skill-tags">
-#             <span class="skill-tag"> Spring</span>
-#             <span class="skill-tag"> Spring Boot</span>
-#             <span class="skill-tag"> Qt Designer</span>
-#             <span class="skill-tag"> JDBC</span>
-#         </div>
-#         <h5 align="center"> <strong>Web Technologies</strong></strong> </h5>
-#         <div class="skill-tags">
-#             <span class="skill-tag"> HTML5</span>
-#             <span class="skill-tag"> CSS</span>
-#             <span class="skill-tag"> CSS3</span>
-#             <span class="skill-tag"> JavaScript</span>
-#         </div>
-#         <h5 align="center"><strong>Databases</strong> </h5>
-#         <div class="skill-tags">
-#             <span class="skill-tag"> MySQL</span>
-#             <span class="skill-tag"> SQLite3</span>
-#             <span class="skill-tag"> SQL</span>
-#             <span class="skill-tag"> DBMS</span>
-#             <span class="skill-tag"> DSA</span>
-#         </div>
-#         <h5 align="center"><strong>Tools and Technologies</strong> </h5>
-#         <div class="skill-tags">
-#             <span class="skill-tag"> VS Code</span>
-#             <span class="skill-tag"> Google Colab</span>
-#             <span class="skill-tag"> Jupyter Notebook</span>
-#             <span class="skill-tag"> Replit</span>
-#         </div>
-#         <h5 align="center"><strong>Service Now </strong> </h5>
-#         <div class="skill-tags">
-#             <span class="skill-tag"> CSA</span>
-#             <span class="skill-tag"> CAD</span>
-#             <span class="skill-tag"> Incident|Problem|Change Management</span>
-#             <span class="skill-tag"> Service Catalog</span>
-#             <span class="skill-tag"> User and Role Management|Access Control</span>
-#             <span class="skill-tag"> Business Rules, UI Policies, Client Scripts</span>
-#         </div>
-#       </div>
-#     </ul>
-#     <h3 style="color:#38bdf8; margin-top:1.5rem;">Soft Skills</h3>
-#     <ul style="list-style-type:none; padding-left:0;">
-#     <div class="skill-tags">
-#             <span class="skill-tag">Adaptability and Flexibility</span>
-#             <span class="skill-tag">Communication and Logical Thinking</span>
-#             <span class="skill-tag">Problem-solving mindset and Quick Learner</span>
-#       </div>
-#     </ul>
-#   </div>
-# </section>
-# """, unsafe_allow_html=True)
-
 # ---------- SKILLS ----------
 st.markdown("""
 <section id="skills" class="section">
   <h2 class="section-heading">Skills</h2>
-
   <div class="content-card skills-container" style="text-align:left;">
-
     <h3 style="color:#38bdf8;">Technical Skills</h3>
-
-    <h5 style="margin-top:12px;"><strong>Programming Languages</strong></h5>
-    <div class="skill-tags" style="margin-bottom:10px;">
-      <span class="skill-tag">Java</span>
-      <span class="skill-tag">Python</span>
-      <span class="skill-tag">SQL</span>
-      <span class="skill-tag">DBMS</span>
-      <span class="skill-tag">DSA</span>
-    </div>
-
-    <h5 style="margin-top:8px;"><strong>Frameworks</strong></h5>
-    <div class="skill-tags" style="margin-bottom:10px;">
-      <span class="skill-tag">Spring</span>
-      <span class="skill-tag">Spring Boot</span>
-      <span class="skill-tag">Qt Designer</span>
-      <span class="skill-tag">JDBC</span>
-    </div>
-
-    <h5 style="margin-top:8px;"><strong>Web Technologies</strong></h5>
-    <div class="skill-tags" style="margin-bottom:10px;">
-      <span class="skill-tag">HTML</span>
-      <span class="skill-tag">HTML5</span>
-      <span class="skill-tag">CSS</span>
-      <span class="skill-tag">CSS3</span>
-      <span class="skill-tag">JavaScript</span>
-    </div>
-
-    <h5 style="margin-top:8px;"><strong>Databases</strong></h5>
-    <div class="skill-tags" style="margin-bottom:10px;">
-      <span class="skill-tag">MySQL</span>
-      <span class="skill-tag">SQLite3</span>
-      <span class="skill-tag">SQL</span>
-    </div>
-
-    <h5 style="margin-top:8px;"><strong>Tools & Technologies</strong></h5>
-    <div class="skill-tags" style="margin-bottom:10px;">
-      <span class="skill-tag">VS Code</span>
-      <span class="skill-tag">Google Colab</span>
-      <span class="skill-tag">Jupyter Notebook</span>
-      <span class="skill-tag">Replit</span>
-    </div>
-
-    <h5 style="margin-top:8px;"><strong>ServiceNow</strong></h5>
-    <div class="skill-tags" style="margin-bottom:6px;">
-      <span class="skill-tag">CSA</span>
-      <span class="skill-tag">CAD</span>
-      <span class="skill-tag">Incident • Problem • Change Mgmt</span>
-      <span class="skill-tag">Service Catalog</span>
-      <span class="skill-tag">User & Role Management</span>
-      <span class="skill-tag">Access Control</span>
-      <span class="skill-tag">Business Rules • UI Policies • Client Scripts</span>
-    </div>
-
-    <hr style="border-color: rgba(255,255,255,0.06); margin:18px 0;">
-
-    <h3 style="color:#38bdf8; margin-top:8px;">Soft Skills</h3>
-    <div class="skill-tags" style="margin-top:10px; margin-bottom:4px;">
-      <span class="skill-tag">Adaptability & Flexibility</span>
-      <span class="skill-tag">Strong Team Collaboration</span>
-      <span class="skill-tag">Communication & Logical Thinking</span>
-      <span class="skill-tag">Problem-solving mindset</span>
-      <span class="skill-tag">Quick Learner</span>
-    </div>
-
+    <ul style="list-style-type:none; padding-left:0;">
+    <h5 align="center"><strong>Programming Languages</strong> </h5>
+        <div class="skill-tags">
+            <span class="skill-tag"> Java</span>
+            <span class="skill-tag"> Python</span>
+            <span class="skill-tag"> SQL</span>
+            <span class="skill-tag"> DBMS</span>
+            <span class="skill-tag"> DSA</span>
+        </div>
+        <h5 align="center"><strong>Frame works </strong> </h5>
+        <div class="skill-tags">
+            <span class="skill-tag"> Spring</span>
+            <span class="skill-tag"> Spring Boot</span>
+            <span class="skill-tag"> Qt Designer</span>
+            <span class="skill-tag"> JDBC</span>
+        </div>
+        <h5 align="center"> <strong>Web Technologies</strong></strong> </h5>
+        <div class="skill-tags">
+            <span class="skill-tag"> HTML5</span>
+            <span class="skill-tag"> CSS</span>
+            <span class="skill-tag"> CSS3</span>
+            <span class="skill-tag"> JavaScript</span>
+        </div>
+        <h5 align="center"><strong>Databases</strong> </h5>
+        <div class="skill-tags">
+            <span class="skill-tag"> MySQL</span>
+            <span class="skill-tag"> SQLite3</span>
+            <span class="skill-tag"> SQL</span>
+            <span class="skill-tag"> DBMS</span>
+            <span class="skill-tag"> DSA</span>
+        </div>
+        <h5 align="center"><strong>Tools and Technologies</strong> </h5>
+        <div class="skill-tags">
+            <span class="skill-tag"> VS Code</span>
+            <span class="skill-tag"> Google Colab</span>
+            <span class="skill-tag"> Jupyter Notebook</span>
+            <span class="skill-tag"> Replit</span>
+        </div>
+        <h5 align="center"><strong>Service Now </strong> </h5>
+        <div class="skill-tags">
+            <span class="skill-tag"> CSA</span>
+            <span class="skill-tag"> CAD</span>
+            <span class="skill-tag"> Incident|Problem|Change Management</span>
+            <span class="skill-tag"> Service Catalog</span>
+            <span class="skill-tag"> User and Role Management|Access Control</span>
+            <span class="skill-tag"> Business Rules, UI Policies, Client Scripts</span>
+        </div>
+    </ul>
+    <h3 style="color:#38bdf8; margin-top:1.5rem;">Soft Skills</h3>
+    <ul style="list-style-type:none; padding-left:0;">
+      <div class="skill-tags">
+            <span class="skill-tag">Adaptability and Flexibility</span>
+            <span class="skill-tag">Communication and Logical Thinking</span>
+            <span class="skill-tag">Problem-solving mindset and Quick Learner</span>
+      </div>
+    </ul>
   </div>
 </section>
 """, unsafe_allow_html=True)
+
 
 
 
@@ -816,6 +740,7 @@ st.markdown("""
   © 2025 Sathi Lakshmi Narayana Reddy | Built with ❤️ using Streamlit
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
