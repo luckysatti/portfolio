@@ -554,7 +554,7 @@ h1, h2, h3 { margin-top: 0.4rem; margin-bottom: 0.4rem; }
 st.markdown("""
 <div class="nav-bar">
     <div class="nav-container">
-        <div class="nav-logo">SHAIK SHARIYA</div>
+        <div class="nav-logo">Sathi Lakshmi Narayana Reddy</div>
         <div class="nav-links">
             <a class="nav-link" style="text-decoration:none;color:pink;" href="#about" onclick="scrollToSection('about'); return false;">About</a>
             <a class="nav-link" style="text-decoration:none;color:pink;" href="#education" onclick="scrollToSection('education'); return false;">Education</a>
@@ -600,13 +600,12 @@ st.markdown("""
       <img src="https://raw.githubusercontent.com/ShariyaShaik/portfolio/refs/heads/main/my_photo.png" class="zoom-image"alt="Shaik Shariya" class="hero-image">
     </div>
     <div class="hero-content">
-      <h1 class="hero-title">Shaik Shariya</h1>
-      <p class="hero-subtitle">Software Engineer | Problem Solver | Full Stack Developer</p>
+      <h1 class="hero-title">Sathi Lakshmi Narayana Reddy</h1>
+      <p class="hero-subtitle"> Full Stack Developer | Software Engineer | Problem Solver </p>
       <p class="hero-description">
-        Final-year Computer Science Engineering student (AIML specialization) with hands-on experience in Java,
-        python programming and database-driven applications. Skilled in Data Structures and Algorithms, debugging and testing with a keen interest
-        in software engineering. Recognized for strong problem-solving, teamwork, and adaptability while
-        contributing to engineering projects.
+         Strongly skilled in Python, Java, DSA and SQL, along with experience in GUI/web development using HTML, CSS, and
+ JavaScript. Hands-on exposure to building applications involving user interface design, database integration, and system
+ simulations. Quick learner with problem-solving skills, adaptability, and teamwork abilities.
       </p>
     </div>
     
@@ -628,16 +627,17 @@ st.markdown("<br>",unsafe_allow_html=True)
 col1, col2, col3, col4 = st.columns(4)
 with col1:
     st.markdown("""
+    <a style="text-decoration:none" href="https://drive.google.com/file/d/1jgRHNDqvfLdwMZeL8kt8XD6Un8Ov0zyP/view?usp=sharing">
     <div class="stat-card">
-        <div class="stat-number">9.74</div>
+        <div class="stat-number">9.45</div>
         <div class="stat-label">CGPA</div>
-    </div>
+    </div></a>
     """, unsafe_allow_html=True)
 
 with col2:
     st.markdown("""
-    <a style="text-decoration:none" href="https://leetcode.com/u/Shariya123/"><div class="stat-card">
-        <div class="stat-number">230+</div>
+    <a style="text-decoration:none" href="https://leetcode.com/u/luckysatti1045/"><div class="stat-card">
+        <div class="stat-number">210+</div>
         <div class="stat-label">LeetCode Problems</div>
     </div></a>
     """, unsafe_allow_html=True)
@@ -654,7 +654,7 @@ with col3:
 
 with col4:
     st.markdown("""
-    <a style="text-decoration:none" href="https://www.hackerrank.com/profile/shaikshariya2825">
+    <a style="text-decoration:none" href="https://www.hackerrank.com/profile/luckysatti1045">
     <div class="stat-card">
         <div class="stat-number"style="font-size: 2rem;">Hackerrank</div>
         <div class="stat-label">5★ in Python</div>
@@ -676,15 +676,15 @@ st.markdown("""
     <p class="card-subtitle">Mohan Babu University, Tirupati</p>
     <p class="card-date">2022 - 2026</p>
     <p class="card-description" style="color: #00d4ff; font-size: 1.3rem; font-weight: 700; margin-top: 15px;">
-        CGPA: 9.74/10
+        CGPA: 9.45/10
     </p>
 </div>
 <div class="content-card">
     <h3 class="card-title">Intermediate in MPC</h3>
-    <p class="card-subtitle">Sri Chaitanya Junior College, Tirupati</p>
+    <p class="card-subtitle">Sri Chaitanya Junior College, Eluru</p>
     <p class="card-date">2020 - 2022</p>
     <p class="card-description" style="color: #00d4ff; font-size: 1.3rem; font-weight: 700; margin-top: 15px;">
-        Marks: 978/1000
+        Marks: 916/1000
     </p>
 </div>
 """, unsafe_allow_html=True)
@@ -706,7 +706,7 @@ st.markdown("""
             <li>Designed front-end interface using HTML and CSS</li>
             <li>Enhanced skills in JDBC and database handling</li>
         </ul>
-        <a href="https://drive.google.com/file/d/10xDFC4LgZH4aTTQg5HHcfw4j_qIY08aV/view?usp=sharing" target="_blank" style="color: #00d4ff; text-decoration: none; font-weight: 600; margin-top: 10px; display: inline-block;">View Certificate →</a>
+        <a href="https://drive.google.com/file/d/1QM-kSE_ufTKhHvIS2QcFOltwEZ7BC_Cc/view" target="_blank" style="color: #00d4ff; text-decoration: none; font-weight: 600; margin-top: 10px; display: inline-block;">View Certificate →</a>
     </div>
 </div>
 <div class="content-card">
@@ -715,11 +715,11 @@ st.markdown("""
     <p class="card-date">October 2024 - December 2024</p>
     <div class="card-description">
         <ul>
-            <li>Gained practical experience in developing machine learning models</li>
             <li>Experimented with ML models and learned model training based on specific requirements</li>
+            <li>Gained practical experience in developing machine learning models</li>
             <li>Enhanced skills in model evaluation, data pre-processing, and deployment strategies</li>
         </ul>
-        <a href="https://drive.google.com/file/d/1lB2__47Lx96UpDOvDrf6YZe2f0FUegX_/view" target="_blank" style="color: #00d4ff; text-decoration: none; font-weight: 600; margin-top: 10px; display: inline-block;">View Certificate →</a>
+        <a href="https://drive.google.com/file/d/1RsvlfH8mgGtt3jA5hAx_EXX49YcaxABG/view" target="_blank" style="color: #00d4ff; text-decoration: none; font-weight: 600; margin-top: 10px; display: inline-block;">View Certificate →</a>
     </div>
 </div>
 
@@ -743,8 +743,8 @@ with col1:
         <p style="color: #e0e0e0; font-weight: 600; margin: 20px 0 10px 0;">Key Features:</p>
         <ul>
             <li>Object-oriented programming with Java (OOP + DSA)</li>
-            <li>JDBC and SQLite3 integration for data persistence</li>
             <li>Clean and responsive front-end using HTML and CSS</li>
+            <li>JDBC and SQLite3 integration for data persistence</li>
             <li>Complete banking operations management</li>
         </ul>
         <div style="margin-top: 20px;">
@@ -753,27 +753,27 @@ with col1:
             <span class="skill-tag">JDBC</span>
             <span class="skill-tag">SQLite3</span>
         </div>
-        <a href="https://github.com/ShariyaShaik/Banking-system" target="_blank" style="color: #00d4ff; text-decoration: none; font-weight: 600; margin-top: 15px; display: inline-block;">View on GitHub →</a>
+        <a href="https://github.com/luckysatti/Banking-System" target="_blank" style="color: #00d4ff; text-decoration: none; font-weight: 600; margin-top: 15px; display: inline-block;">View on GitHub →</a>
     </div>
     
-    <div class="content-card">
-        <h3 class="card-title">Educational Organization - ServiceNow</h3>
-        <p class="card-description">
-            Comprehensive educational system built on ServiceNow platform with complete administrative features.
-        </p>
-        <p style="color: #e0e0e0; font-weight: 600; margin: 20px 0 10px 0;">Key Features:</p>
-        <ul>
-            <li>Business rules and client scripts implementation</li>
-            <li>Flow designers for custom tables</li>
-            <li>Complete admission, grades, and fee management system</li>
-        </ul>
-        <div style="margin-top: 20px;">
-            <span class="skill-tag">ServiceNow</span>
-            <span class="skill-tag">Flow Designer</span>
-            <span class="skill-tag">Business Rules</span>
-        </div>
-        <a href="" target="_blank" style="color: #00d4ff; text-decoration: none; font-weight: 600; margin-top: 15px; display: inline-block;">In Progress</a>
-    </div>
+    # <div class="content-card">
+    #     <h3 class="card-title">Educational Organization - ServiceNow</h3>
+    #     <p class="card-description">
+    #         Comprehensive educational system built on ServiceNow platform with complete administrative features.
+    #     </p>
+    #     <p style="color: #e0e0e0; font-weight: 600; margin: 20px 0 10px 0;">Key Features:</p>
+    #     <ul>
+    #         <li>Business rules and client scripts implementation</li>
+    #         <li>Flow designers for custom tables</li>
+    #         <li>Complete admission, grades, and fee management system</li>
+    #     </ul>
+    #     <div style="margin-top: 20px;">
+    #         <span class="skill-tag">ServiceNow</span>
+    #         <span class="skill-tag">Flow Designer</span>
+    #         <span class="skill-tag">Business Rules</span>
+    #     </div>
+    #     <a href="" target="_blank" style="color: #00d4ff; text-decoration: none; font-weight: 600; margin-top: 15px; display: inline-block;">In Progress</a>
+    # </div>
     """, unsafe_allow_html=True)
 
 with col2:
@@ -794,7 +794,7 @@ with col2:
             <span class="skill-tag">Virtual Agent</span>
             <span class="skill-tag">Integration</span>
         </div>
-        <a href="https://www.linkedin.com/posts/shariya-shaik-13677a268_servicenow-virtualagent-automation-activity-7370366782080999424-40di?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEGcDzoBwJGtScFFKVwyEfzazxRp9b-3ffA" target="_blank" style="color: #00d4ff; text-decoration: none; font-weight: 600; margin-top: 15px; display: inline-block;">View on LinkedIn →</a>
+        <a href="https://www.linkedin.com/posts/sathi-lakshmi-narayana-reddy-b05ab6284_servicenow-learningbydoing-servicenowdeveloper-activity-7370362503954022400--CMW?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEU34bUBnfFrkkibKaBaNCjQKmkWr3IGqRk" target="_blank" style="color: #00d4ff; text-decoration: none; font-weight: 600; margin-top: 15px; display: inline-block;">View on LinkedIn →</a>
     </div>
     
     <div class="content-card">
@@ -814,7 +814,7 @@ with col2:
             <span class="skill-tag">Qt Designer</span>
             <span class="skill-tag">SQL</span>
         </div>
-        <a href="https://www.linkedin.com/posts/shariya-shaik-13677a268_excited-to-share-my-latest-project-a-fantasy-activity-7211810547988668416-audU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEGcDzoBwJGtScFFKVwyEfzazxRp9b-3ffA" target="_blank" style="color: #00d4ff; text-decoration: none; font-weight: 600; margin-top: 15px; display: inline-block;">View on LinkedIn →</a>
+        <a href="https://www.linkedin.com/posts/sathi-lakshmi-narayana-reddy-b05ab6284_excited-to-share-my-latest-project-activity-7211786994459271168-Ejiz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEU34bUBnfFrkkibKaBaNCjQKmkWr3IGqRk" target="_blank" style="color: #00d4ff; text-decoration: none; font-weight: 600; margin-top: 15px; display: inline-block;">View on LinkedIn →</a>
     </div>
     """, unsafe_allow_html=True)
 
@@ -874,13 +874,13 @@ st.markdown('<div id="certifications" class="section">', unsafe_allow_html=True)
 st.markdown('<h2 class="section-heading">Certifications</h2>', unsafe_allow_html=True)
 
 certifications = [
-    ("Certified System Administrator - ServiceNow", "2025", "https://drive.google.com/file/d/19dzrKbxLPYuuutpk4JHwcxnSbND_kd4u/view?usp=drive_link"),
-    ("Certified Application Developer - ServiceNow", "2025", "https://drive.google.com/file/d/1v6VWEnQ97pgYowZoVpFquzEdPtGctu4X/view?usp=drive_link"),
-    ("Programming, Data Structures and Algorithms using Python - NPTEL", "2024", "https://archive.nptel.ac.in/content/noc/NOC24/SEM1/Ecertificates/106/noc24-cs45/Course/NPTEL24CS45S64250053230164497.pdf"),
-    ("Google AI Essentials - Google, Coursera", "2024", "https://www.coursera.org/account/accomplishments/verify/WSAJV9GWAGNA"),
-    ("Java (Basic) Certificate - HackerRank", "2025", "https://www.hackerrank.com/certificates/afa9a9f6a485"),
-    ("Python (Basic) Certificate - HackerRank", "2025", "https://www.hackerrank.com/certificates/54665ee9596d"),
-    ("SQL (Basic) Certificate - HackerRank", "2025", "https://www.hackerrank.com/certificates/0d4c4ae63d0a")
+    ("Certified System Administrator - ServiceNow", "2025", "https://drive.google.com/file/d/1w7lybh9zB-q1qsNoCHcNH3GuH6KG7dUa/view"),
+    ("Certified Application Developer - ServiceNow", "2025", "https://drive.google.com/file/d/1Z3eSYGtxu6WGei6sSD-qF0xV459TL9DU/view"),
+    ("Programming, Data Structures and Algorithms using Python - NPTEL", "2024", "https://archive.nptel.ac.in/content/noc/NOC24/SEM1/Ecertificates/106/noc24-cs45/Course/NPTEL24CS45S54250031730104507.pdf"),
+    ("Google AI Essentials - Google, Coursera", "2024", "https://www.coursera.org/account/accomplishments/verify/NB49HZZRHJ6N"),
+    ("Java (Basic) Certificate - HackerRank", "2025", "https://www.hackerrank.com/certificates/bb2a5a287625"),
+    ("Python (Basic) Certificate - HackerRank", "2025", "https://www.hackerrank.com/certificates/41269ac79a7a"),
+    ("SQL (Basic) Certificate - HackerRank", "2025", "https://www.hackerrank.com/certificates/bc7e1f10410a")
 ]
 
 for cert, year, link in certifications:
@@ -904,11 +904,10 @@ st.markdown("""
             I'm always open to discussing new opportunities, collaborations, or just having a chat about technology!
         </p>
         <div class="contact-links">
-            <a style="text-decoration:none" href="mailto:shaikshariya2825@gmail.com" class="contact-link">Email</a>
-            <a style="text-decoration:none" href="tel:+917660896768" class="contact-link">Phone</a>
-            <a style="text-decoration:none" href="https://www.linkedin.com/in/shariya-shaik-13677a268/" target="_blank" class="contact-link">LinkedIn</a>
-            <a style="text-decoration:none" href="https://github.com/ShariyaShaik" target="_blank" class="contact-link">GitHub</a>
-            <a style="text-decoration:none" href="https://hackerrank.com/shaikshariya2825" target="_blank" class="contact-link">HackerRank</a>
+            <a style="text-decoration:none" href="mailto:luckysatti1045@gmail.com" class="contact-link">Email</a>
+            <a style="text-decoration:none" href="tel:+919390984914" class="contact-link">Phone</a>
+            <a style="text-decoration:none" href="https://www.linkedin.com/in/sathi-lakshmi-narayana-reddy-b05ab6284/" target="_blank" class="contact-link">LinkedIn</a>
+            <a style="text-decoration:none" href="https://github.com/luckysatti" target="_blank" class="contact-link">GitHub</a>
         </div>
         <p style="color: #808080; font-size: 1.05rem; margin-top: 30px;">
             Resident in Tirupati, Andhra Pradesh, India
@@ -920,6 +919,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 
 
 st.markdown('</div>', unsafe_allow_html=True)
+
 
 
 
