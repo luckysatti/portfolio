@@ -4,7 +4,7 @@ from datetime import datetime
 
 # Page Configuration
 st.set_page_config(
-    page_title="Shaik Shariya | AI/ML Portfolio",
+    page_title="Sathi Lakshmi Narayana Reddy | Portfolio",
     page_icon="",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -597,7 +597,7 @@ st.markdown("""
 <div id="about" class="main-content">
   <section class="hero-section">
     <div class="hero-image-container">
-      <img src="https://raw.githubusercontent.com/ShariyaShaik/portfolio/refs/heads/main/my_photo.png" class="zoom-image"alt="Shaik Shariya" class="hero-image">
+      <img src="https://github.com/luckysatti/photo/blob/main/IMG_20250909_193640.png" class="zoom-image"alt="Shaik Shariya" class="hero-image">
     </div>
     <div class="hero-content">
       <h1 class="hero-title">Sathi Lakshmi Narayana Reddy</h1>
@@ -899,6 +899,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 
 
 st.markdown('</div>', unsafe_allow_html=True)
+
 
 
 
