@@ -866,6 +866,135 @@ function scrollToSection(sectionId) {
 """, unsafe_allow_html=True)
 
 # Navigation Bar
+# Navigation Bar
+st.markdown("""
+<div class="nav-bar">
+  <div class="nav-container">
+    <div class="nav-logo">Sathi Lakshmi Narayana Reddy</div>
+    <div class="nav-links">
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#certifications">Certifications</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </div>
+  </div>
+</div>
+""", unsafe_allow_html=True)
+
+# Main Content
+st.markdown('<div class="main-content">', unsafe_allow_html=True)
+
+# Hero Section
+st.markdown("""
+<section class="hero-section" id="home">
+    <div class="hero-content">
+        <h1 class="hero-title">Sathi Lakshmi Narayana Reddy</h1>
+        <h2 class="hero-subtitle">Python Developer | Web Enthusiast | ServiceNow Certified</h2>
+        <p class="hero-description">
+            Passionate about creating intelligent solutions using Python, SQL, and modern web technologies.
+            Dedicated to continuous learning and innovation.
+        </p>
+        <div class="cta-container">
+            <a href="#projects" class="cta-button cta-button-primary">View Projects</a>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+    </div>
+    <div class="hero-image-container">
+        <img src="https://avatars.githubusercontent.com/u/..." class="hero-image" alt="Profile Photo">
+    </div>
+</section>
+""", unsafe_allow_html=True)
+
+# About Section
+st.markdown("""
+<section id="about" class="section">
+  <h2 class="section-heading">About Me</h2>
+  <div class="content-card">
+    <p class="card-description">
+        I’m a dedicated developer skilled in Python, SQL, ServiceNow, and full-stack web development.
+        I love building creative and impactful projects like portfolio websites, management systems, and AI-driven applications.
+    </p>
+  </div>
+</section>
+""", unsafe_allow_html=True)
+
+# Skills Section
+st.markdown("""
+<section id="skills" class="section">
+  <h2 class="section-heading">Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-category">
+      <h3 class="skill-category-title">Programming</h3>
+      <div class="skill-tags">
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">Java</span>
+        <span class="skill-tag">SQL</span>
+      </div>
+    </div>
+    <div class="skill-category">
+      <h3 class="skill-category-title">Web</h3>
+      <div class="skill-tags">
+        <span class="skill-tag">HTML</span>
+        <span class="skill-tag">CSS</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">React</span>
+      </div>
+    </div>
+  </div>
+</section>
+""", unsafe_allow_html=True)
+
+# Projects Section
+st.markdown("""
+<section id="projects" class="section">
+  <h2 class="section-heading">Projects</h2>
+  <div class="projects-grid">
+    <div class="content-card">
+      <h3 class="card-title">Banking System Simulator</h3>
+      <p class="card-description">A web-based banking simulator built using JSP, Servlets, and SQLite with full account management features.</p>
+    </div>
+    <div class="content-card">
+      <h3 class="card-title">Hotel Pineapple - Food Ordering System</h3>
+      <p class="card-description">An interactive food ordering website built using HTML, CSS, JS, and PHP integrated with SQL.</p>
+    </div>
+  </div>
+</section>
+""", unsafe_allow_html=True)
+
+# Certifications Section
+st.markdown("""
+<section id="certifications" class="section">
+  <h2 class="section-heading">Certifications</h2>
+  <div class="cert-item">
+    <div class="cert-name">ServiceNow Certified System Administrator</div>
+    <div class="cert-year">2025</div>
+  </div>
+  <div class="cert-item">
+    <div class="cert-name">ServiceNow Certified Application Developer</div>
+    <div class="cert-year">2025</div>
+  </div>
+</section>
+""", unsafe_allow_html=True)
+
+# Contact Section
+st.markdown("""
+<section id="contact" class="section">
+  <h2 class="section-heading">Contact Me</h2>
+  <div class="contact-container">
+    <p>Let’s connect! I’m open to collaborations, internships, or freelance opportunities.</p>
+    <div class="contact-links">
+      <a href="mailto:yourmail@example.com" class="contact-link">Email</a>
+      <a href="https://www.linkedin.com/in/yourprofile" class="contact-link">LinkedIn</a>
+      <a href="https://github.com/yourgithub" class="contact-link">GitHub</a>
+    </div>
+  </div>
+</section>
+""", unsafe_allow_html=True)
+
+st.markdown("</div>", unsafe_allow_html=True)
+
+
 st.markdown("""
 <style>
 /* Reduce page top padding */
@@ -1232,6 +1361,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 
 
 st.markdown('</div>', unsafe_allow_html=True)
+
 
 
 
