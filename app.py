@@ -734,12 +734,9 @@ li::marker {
     font-family: 'Space Grotesk', sans-serif;
 }
 
-.main .block-container { 
-    padding-top: 0px; 
-}
 
 .main-content { 
-    margin-top: 0px; 
+    margin-top: 120px; 
 }
 
 .hero-section { 
@@ -1235,6 +1232,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 
 
 st.markdown('</div>', unsafe_allow_html=True)
+
 
 
 
